@@ -4,10 +4,32 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public GameObject MySphere;
+    public GameObject spawner;
+    List<GameObject> myChar;
 
-    public void SpawnSphere()
+    private void Start()
     {
-        Instantiate(MySphere,Vector3.zero, Quaternion.identity);
+        this.myChar = new List<GameObject>();
+    }
+
+    void Update()
+    {
+        Vector3 spawnLocation = new Vector3(-1100, 50, 999);
+
+        if (this.transform.position.x >= spawnLocation.x)
+        {
+            SpawnObject(spawnLocation);
+        }
+    }
+
+    public void SpawnObject(Vector3 spawnPosition)
+    {
+        // Only create 5 Objects, not more
+        if (this.myChar.Count >= 5) return;
+
+        int index = this.myChar.Count + 1;
+        GameObject myCharacter = Instantiate(this.spawner, spawnPosition, Quaternion.identity);
+        myCharacter.name = "myCharacter #" + index;
+        this.myChar.Add(myCharacter);
     }
 }

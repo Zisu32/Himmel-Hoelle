@@ -385,7 +385,6 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Script/HimmelObject.cs"
 "Assets/Script/MoveManager.cs"
 "Assets/Script/SpawnerObject.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

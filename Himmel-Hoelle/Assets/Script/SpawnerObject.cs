@@ -1,36 +1,43 @@
+using NUnit.Framework.Constraints;
 using UnityEngine;
 
 public class SpawnerObject : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Geschwindigkeit der Bewegung
-    public float upSpeed = 5f;
-    public float downSpeed = 5f;
-    public float stopXCoordinate = 0f; // X-Koordinate zum Stoppen
-    private bool isMoveRight = false; // Flag zur Verfolgung der Bewegung
-    public bool isMovingUp = false;
-    public bool isMovingDown = false;
+    public float moveSpeed = 500f; // Geschwindigkeit der Bewegung
+    public float upSpeed = 500f;
+    public float downSpeed = 500f;
+    private float stopXCoordinate = 0f; // X-Koordinate zum Stoppen
+    private float stopHimmel = 1000f; // Y-Koordinate zum Stoppen im Himmel
+    private float stopHoelle = -1000f; // Y-Koordinate zum Stoppen in Hoelle
+    private bool isSpawn = true; // Flag zur Verfolgung der Bewegung
+    public bool isHimmel = false;
+    public bool isHoelle = false;
+    private bool isMoveRight = false; 
+    private bool isMovingUp = false;
+    private bool isMovingDown = false;
 
     // Update wird einmal pro Frame aufgerufen
     void Update()
     {
-        moveRight();
+        MoveRight();
 
-        if (isMovingUp)
+        if (isMovingUp && !isHoelle)
         {
             MoveUp();
         }
 
-        if (isMovingDown)
+        if (isMovingDown && !isHimmel)
         {
             MoveDown();
         }
     }
 
-    public void moveRight()
+    public void MoveRight()
     {
         // Wenn das Objekt sich bewegen soll und noch nicht über die Stop-X-Koordinate hinaus bewegt hat
         if (isMoveRight && transform.position.x < stopXCoordinate)
         {
+            isSpawn = false;
             // Bewegung des Objekts nach rechts
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
         }
@@ -39,19 +46,37 @@ public class SpawnerObject : MonoBehaviour
             isMoveRight = false;
         }
     }
-
+    
     public void MoveUp()
     {
-        transform.Translate(Vector3.up * upSpeed * Time.deltaTime);
+        if (isMovingUp && !isSpawn && !isMoveRight && transform.position.y < stopHimmel)
+        {
+            transform.Translate(Vector3.up * upSpeed * Time.deltaTime);
+            isHimmel = true;
+            isHoelle = false;
+        }
+        else
+        {
+            isMovingUp = false;
+        }
     }
 
     public void MoveDown()
     {
-        transform.Translate(Vector3.down * downSpeed * Time.deltaTime);
+        if (isMovingDown && !isSpawn && !isMoveRight && transform.position.y > stopHoelle)
+        {
+            transform.Translate(Vector3.down * downSpeed * Time.deltaTime);
+            isHoelle = true;
+            isHimmel = false;
+        }
+        else
+        {
+            isMovingDown = false;
+        }
     }
 
     // Für Button_Next on click, Methode zum Starten und Stoppen der Bewegung
-    public void RightMovement()
+    public void RightObj()
     {
         // Wenn das Objekt bereits in Bewegung ist, stoppen
         if (isMoveRight)
@@ -64,7 +89,8 @@ public class SpawnerObject : MonoBehaviour
             isMoveRight = true;
         }
     }
-
+    
+    // Für Button_Himmel on click, Methode zum Starten und Stoppen der Bewegung
     public void UpObj()
     {
         // Wenn das Objekt bereits in Bewegung nach oben ist, stoppen
@@ -78,7 +104,8 @@ public class SpawnerObject : MonoBehaviour
             isMovingUp = true;
         }
     }
-
+    
+    // Für Button_Hoelle on click, Methode zum Starten und Stoppen der Bewegung
     public void DownObj()
     {
         if (isMovingDown)

@@ -290,6 +290,14 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 8779808293476780554, guid: 3aff876802c2ad44b9809583ce735430, type: 3}
+      propertyPath: stopHimmel
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779808293476780554, guid: 3aff876802c2ad44b9809583ce735430, type: 3}
+      propertyPath: stopHoelle
+      value: -1000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -483,7 +491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -156}
+  m_AnchoredPosition: {x: 0, y: -177}
   m_SizeDelta: {x: 118.4282, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444340535
@@ -605,7 +613,7 @@ Transform:
   m_GameObject: {fileID: 459953342}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -702,6 +710,14 @@ PrefabInstance:
     - target: {fileID: 3895976246373356284, guid: 62db814fe6fef5d49ad0d4a55cede53f, type: 3}
       propertyPath: moveSpeed
       value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895976246373356284, guid: 62db814fe6fef5d49ad0d4a55cede53f, type: 3}
+      propertyPath: stopHimmel
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3895976246373356284, guid: 62db814fe6fef5d49ad0d4a55cede53f, type: 3}
+      propertyPath: stopHoelle
+      value: -1000
       objectReference: {fileID: 0}
     - target: {fileID: 8199551929597121000, guid: 62db814fe6fef5d49ad0d4a55cede53f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1215,6 +1231,14 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 4104776992625679657, guid: 481ea1d556fa26543aa3abe7c6b35809, type: 3}
+      propertyPath: stopHimmel
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104776992625679657, guid: 481ea1d556fa26543aa3abe7c6b35809, type: 3}
+      propertyPath: stopHoelle
+      value: -1000
+      objectReference: {fileID: 0}
     - target: {fileID: 7501537240230125423, guid: 481ea1d556fa26543aa3abe7c6b35809, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1481,6 +1505,14 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 404108237450701329, guid: a064e68baf6bce04d885f9a7a59e2d31, type: 3}
+      propertyPath: stopHimmel
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 404108237450701329, guid: a064e68baf6bce04d885f9a7a59e2d31, type: 3}
+      propertyPath: stopHoelle
+      value: -1000
+      objectReference: {fileID: 0}
     - target: {fileID: 2359798001158976709, guid: a064e68baf6bce04d885f9a7a59e2d31, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1593,6 +1625,14 @@ PrefabInstance:
     - target: {fileID: 7184864278596586603, guid: 05ab03854417e8b41830a933e51c6008, type: 3}
       propertyPath: moveSpeed
       value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7184864278596586603, guid: 05ab03854417e8b41830a933e51c6008, type: 3}
+      propertyPath: stopHimmel
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7184864278596586603, guid: 05ab03854417e8b41830a933e51c6008, type: 3}
+      propertyPath: stopHoelle
+      value: -1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1765,7 +1805,6 @@ MonoBehaviour:
   - {fileID: 1661810752}
   - {fileID: 391193692}
   - {fileID: 1237598295}
-  himmelObjects: []
 --- !u!1 &1908095663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1802,7 +1841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 146}
+  m_AnchoredPosition: {x: 0, y: 178}
   m_SizeDelta: {x: 118.4282, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1908095665
@@ -1935,7 +1974,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 223, y: -10.1}
+  m_AnchoredPosition: {x: 223, y: 8}
   m_SizeDelta: {x: 114.6489, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1978451070
@@ -2078,12 +2117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnObjects: []
-  himmelObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &2069844726
 GameObject:
   m_ObjectHideFlags: 0

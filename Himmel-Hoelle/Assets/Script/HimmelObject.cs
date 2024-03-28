@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class HimmelObject : MonoBehaviour
 {
+    public SpawnerObject SpawnerObject { get; private set; }
 
-
-    // Update is called once per frame
-    void Update()
+    // Konstruktor, der einen SpawnerObject akzeptiert
+    public HimmelObject(SpawnerObject spawnerObject)
     {
-        
+        SpawnerObject = spawnerObject;
     }
+
 }

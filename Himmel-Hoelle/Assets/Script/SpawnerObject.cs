@@ -7,8 +7,8 @@ public class SpawnerObject : MonoBehaviour
     public float downSpeed = 5f;
     public float stopXCoordinate = 0f; // X-Koordinate zum Stoppen
     private bool isMoveRight = false; // Flag zur Verfolgung der Bewegung
-    private bool isMovingUp = false;
-    private bool isMovingDown = false;
+    public bool isMovingUp = false;
+    public bool isMovingDown = false;
 
     // Update wird einmal pro Frame aufgerufen
     void Update()

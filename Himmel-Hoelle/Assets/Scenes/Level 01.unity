@@ -1072,7 +1072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3895976246373356284, guid: 62db814fe6fef5d49ad0d4a55cede53f, type: 3}
       propertyPath: moveSpeed
-      value: 500
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 3895976246373356284, guid: 62db814fe6fef5d49ad0d4a55cede53f, type: 3}
       propertyPath: stopHimmel
@@ -1300,7 +1300,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 696530464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1669310525}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &696530464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2672,6 +2684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515b7fa6020d85145b9f0b6e39fc82c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: Main Menu
 --- !u!1 &1689823811
 GameObject:
   m_ObjectHideFlags: 0

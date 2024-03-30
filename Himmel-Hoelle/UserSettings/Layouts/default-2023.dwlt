@@ -319,8 +319,8 @@ MonoBehaviour:
     y: 0
     width: 296
     height: 909
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -467,9 +467,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: cc790000
       m_LastClickedID: 0
-      m_ExpandedIDs: c84afeff746efeff767afefff497feff38a2feffe2a9feffa4b9feffeebdfeff9cbefeffcac1feff78d3feff16e7feff26e7feffcce7feff02eafeff98eafeff1c0cffffe827ffff0665ffff2876ffff9eaeffffc0c9ffffdee8ffff0efbffffa0770000fe77000078a3000002a6000038a60000
+      m_ExpandedIDs: 88f7ffffa0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1031,9 +1031,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 66.34952, y: 113.70836, z: -8.878526}
+    m_Target: {x: -198.73434, y: 72.435165, z: -12.518813}
     speed: 2
-    m_Value: {x: 66.34952, y: 113.70836, z: -8.878526}
+    m_Value: {x: -198.73434, y: 72.435165, z: -12.518813}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1083,9 +1083,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1361.118
+    m_Target: 1252.7471
     speed: 2
-    m_Value: 1361.118
+    m_Value: 1252.7471
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1163,7 +1163,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1173,16 +1173,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Nhu Hue\RWU\7.Semester\Game Design\Himmel-Hoelle\Himmel-Hoelle
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c790000
-    m_LastClickedID: 31020
-    m_ExpandedIDs: 00000000d4780000ec7d0000f07d00001c92000000ca9a3b
+    m_SelectedIDs: c2790000
+    m_LastClickedID: 31170
+    m_ExpandedIDs: 0000000066790000687900006a7900006c79000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1211,7 +1211,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4780000
+    m_ExpandedIDs: 0000000066790000687900006a7900006c790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1257,7 +1257,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

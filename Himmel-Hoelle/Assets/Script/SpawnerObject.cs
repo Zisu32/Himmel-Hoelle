@@ -12,7 +12,7 @@ public class SpawnerObject : MonoBehaviour
     private bool isSpawn = true; // Flag zur Verfolgung der Bewegung
     public bool isHimmel = false;
     public bool isHoelle = false;
-    private bool isMoveRight = false; 
+    private bool isMoveRight = false;
     private bool isMovingUp = false;
     private bool isMovingDown = false;
 
@@ -46,7 +46,7 @@ public class SpawnerObject : MonoBehaviour
             isMoveRight = false;
         }
     }
-    
+
     public void MoveUp()
     {
         if (isMovingUp && !isSpawn && !isMoveRight && transform.position.y < stopHimmel)
@@ -78,45 +78,31 @@ public class SpawnerObject : MonoBehaviour
     // Für Button_Next on click, Methode zum Starten und Stoppen der Bewegung
     public void RightObj()
     {
-        // Wenn das Objekt bereits in Bewegung ist, stoppen
-        if (isMoveRight)
-        {
-            isMoveRight = false;
-        }
-        // Andernfalls die Bewegung starten
-        else
-        {
-            isMoveRight = true;
-        }
+        isMoveRight = true;
+        isMovingUp = false;
+        isMovingDown = false;
     }
-    
+
     // Für Button_Himmel on click, Methode zum Starten und Stoppen der Bewegung
     public void UpObj()
     {
-        // Wenn das Objekt bereits in Bewegung nach oben ist, stoppen
-        if (isMovingUp)
-        {
-            isMovingUp = false;
-        }
-        // Andernfalls die Bewegung nach oben starten
-        else
-        {
-            isMovingUp = true;
-        }
+        isMovingUp = true;
+        isMoveRight = false;
+        isMovingDown = false;
     }
-    
+
     // Für Button_Hoelle on click, Methode zum Starten und Stoppen der Bewegung
     public void DownObj()
     {
-        if (isMovingDown)
+        isMovingDown = true;
+        isMoveRight = false;
+        isMovingUp = false;
+    }
+    public void StartMovingRightAutomatically()
+    {
+        if (transform.GetSiblingIndex() == 0)
         {
-            isMovingDown = false;
-        }
-        // Andernfalls die Bewegung nach oben starten
-        else
-        {
-            isMovingDown = true;
-
+            RightObj();
         }
     }
 }

@@ -5,14 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-  public void Restart()
+    public string sceneName;
+
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
-    public void MainMenu()
+   
+    public void CloseGame()
     {
-        // to do load main menu
+        Application.Quit();
+    }
+
+    public void LoadScene()
+    {
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 }
 

@@ -6,6 +6,13 @@ public class MoveManager : MonoBehaviour
     public SpawnerObject[] spawnObjects; // Array von spawnObjects-Objekten
     private int currentIndex = 0; // Aktueller Index im Array
 
+    private void Start()
+    {
+        if(spawnObjects.Length > 0)
+        {
+            spawnObjects[0].StartMovingRightAutomatically();
+        }
+    }
     public void MoveNextObject()
     {
         if (currentIndex >= 0 && currentIndex < spawnObjects.Length)

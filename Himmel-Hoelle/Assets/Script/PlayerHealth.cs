@@ -8,7 +8,8 @@ public class PlayerHealth : MonoBehaviour
     public float healthDecayRate = 0.5f; 
     private float currentHealth; 
     public TextMeshProUGUI healthText; 
-    public Image healthBar; 
+    public Image healthBar;
+    public GameObject Panel;
 
     void Start()
     {
@@ -27,7 +28,9 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0f)
         {
-            Die(); // Xử lý sự kiện khi mạng sống hết
+            Die();
+            Panel.SetActive(true);
+
         }
     }
 

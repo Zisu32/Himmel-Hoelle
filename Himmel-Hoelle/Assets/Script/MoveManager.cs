@@ -4,7 +4,8 @@ using UnityEngine.Serialization;
 public class MoveManager : MonoBehaviour
 {
     public SpawnerObject[] spawnObjects; // Array von spawnObjects-Objekten
-    private int currentIndex = 0; // Aktueller Index im Array
+    public int currentIndex = 0; // Aktueller Index im Array
+    public ChangeText changeText; // Reference to the ChangeText component
 
     private void Start()
     {
@@ -54,5 +55,10 @@ public class MoveManager : MonoBehaviour
                 currentIndex = 0;
             }
         }
+    }
+    // Method to change the text
+    public void ChangePodestText(string newText)
+    {
+        changeText.podestText.text = newText;
     }
 }

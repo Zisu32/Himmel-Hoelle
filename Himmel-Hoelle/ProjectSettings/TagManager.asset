@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Podest
+  - PodestText
+  - Char1
+  - Char2
   layers:
   - Default
   - TransparentFX

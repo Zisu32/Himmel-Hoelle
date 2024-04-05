@@ -34,16 +34,16 @@ public class PlayerHealth : MonoBehaviour
 
         }
     }
-    
-    
+     
     public void GameOver()
     {
+        endLevelPanel.SetActive(false);
         Panel.SetActive(true);
     }
 
     public void ShowEndPanel()
     {
-        // Hier wird das End-Panel aktiviert
+        Panel.SetActive(false);
         endLevelPanel.SetActive(true);
     }
 
@@ -65,7 +65,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = "Health: " + Mathf.RoundToInt(currentHealth); 
+            healthText.text = "Time: " + Mathf.RoundToInt(currentHealth); 
         }
 
         if (healthBar != null)

@@ -73,7 +73,6 @@ public class MoveManager : MonoBehaviour
 
     public void ObjectMovementCompleted()
     {
-        // Kiểm tra xem tất cả các đối tượng đã di chuyển hết chưa
         bool allObjectsMoved = true;
         foreach (SpawnerObject spawnObject in spawnObjects)
         {
@@ -84,7 +83,6 @@ public class MoveManager : MonoBehaviour
             }
         }
 
-        // Nếu tất cả các đối tượng đã di chuyển hết, gọi hàm ShowEndPanel()
         if (allObjectsMoved)
         {
             playerHealth.ShowEndPanel();

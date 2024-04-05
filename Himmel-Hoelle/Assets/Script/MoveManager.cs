@@ -6,13 +6,16 @@ public class MoveManager : MonoBehaviour
     public SpawnerObject[] spawnObjects; // Array von spawnObjects-Objekten
     public int currentIndex = 0; // Aktueller Index im Array
     public ChangeText changeText; // Reference to the ChangeText component
-
+    public PlayerHealth playerHealth;
+    
     private void Start()
     {
         if(spawnObjects.Length > 0)
         {
             spawnObjects[0].StartMovingRightAutomatically();
         }
+        playerHealth = FindObjectOfType<PlayerHealth>();
+
     }
     public void MoveNextObject()
     {
@@ -31,6 +34,10 @@ public class MoveManager : MonoBehaviour
     {
         if (currentIndex >= 0 && currentIndex < spawnObjects.Length)
         {
+            if(currentIndex == 1){
+                playerHealth.GameOver();
+            }
+            
             spawnObjects[currentIndex].UpObj(); 
 
             currentIndex--;

@@ -28,17 +28,17 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0f)
         {
-            Die();
-            Panel.SetActive(true);
+            GameOver();
+            Debug.Log("Player died!");
 
         }
     }
-
-    void Die()
+    
+    
+    public void GameOver()
     {
-        Debug.Log("Player died!");
+        Panel.SetActive(true);
     }
-
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;

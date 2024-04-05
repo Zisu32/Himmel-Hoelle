@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Serialization;
 
 public class MoveManager : MonoBehaviour
@@ -68,4 +68,25 @@ public class MoveManager : MonoBehaviour
     {
         changeText.podestText.text = newText;
     }
+
+    public void ObjectMovementCompleted()
+    {
+        // Kiểm tra xem tất cả các đối tượng đã di chuyển hết chưa
+        bool allObjectsMoved = true;
+        foreach (SpawnerObject spawnObject in spawnObjects)
+        {
+            if (!spawnObject.isHimmel && !spawnObject.isHoelle)
+            {
+                allObjectsMoved = false;
+                break;
+            }
+        }
+
+        // Nếu tất cả các đối tượng đã di chuyển hết, gọi hàm ShowEndPanel()
+        if (allObjectsMoved)
+        {
+            playerHealth.ShowEndPanel();
+        }
+    }
+
 }

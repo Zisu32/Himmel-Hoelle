@@ -390,6 +390,7 @@
 "Assets/Script/LeafObject.cs"
 "Assets/Script/MoveManager.cs"
 "Assets/Script/PlayerHealth.cs"
+"Assets/Script/PlaySound.cs"
 "Assets/Script/SpawnerObject.cs"
 "Assets/Script/UIManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

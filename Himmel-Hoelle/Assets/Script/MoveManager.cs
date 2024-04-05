@@ -7,12 +7,14 @@ public class MoveManager : MonoBehaviour
     public int currentIndex = 0; // Aktueller Index im Array
     public ChangeText changeText; // Reference to the ChangeText component
     public PlayerHealth playerHealth;
-    
+    public AudioSource rollSound;
     private void Start()
     {
         if(spawnObjects.Length > 0)
         {
             spawnObjects[0].StartMovingRightAutomatically();
+            rollSound.Play();
+            
         }
         playerHealth = FindObjectOfType<PlayerHealth>();
 

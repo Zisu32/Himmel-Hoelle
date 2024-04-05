@@ -36902,8 +36902,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1624962,
       "PayloadLength": 38884,
+=======
+      "PayloadOffset": 1625072,
+      "PayloadLength": 38914,
+>>>>>>> 072e8ea103709b7552ba47d6639ff4fab89b43b2
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "InputFlags": [],
@@ -36919,7 +36924,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1663933,
+=======
+      "PayloadOffset": 1664073,
+>>>>>>> 072e8ea103709b7552ba47d6639ff4fab89b43b2
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -37199,6 +37208,7 @@
         "Assets/Script/LeafObject.cs",
         "Assets/Script/MoveManager.cs",
         "Assets/Script/PlayerHealth.cs",
+        "Assets/Script/PlaySound.cs",
         "Assets/Script/SpawnerObject.cs",
         "Assets/Script/UIManager.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
@@ -37241,6 +37251,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "InputFlags": [
+        0,
         0,
         0,
         0,
@@ -37850,7 +37861,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1664029,
+=======
+      "PayloadOffset": 1664169,
+>>>>>>> 072e8ea103709b7552ba47d6639ff4fab89b43b2
       "PayloadLength": 11702,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],

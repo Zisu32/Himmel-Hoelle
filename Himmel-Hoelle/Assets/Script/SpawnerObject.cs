@@ -44,6 +44,11 @@ public class SpawnerObject : MonoBehaviour
         else
         {
             isMoveRight = false;
+
+            if (!isMoveRight && !isMovingUp && !isMovingDown)
+            {
+                FindObjectOfType<MoveManager>().ObjectMovementCompleted();
+            }
         }
     }
 
@@ -58,6 +63,11 @@ public class SpawnerObject : MonoBehaviour
         else
         {
             isMovingUp = false;
+
+            if (!isMoveRight && !isMovingUp && !isMovingDown)
+            {
+                FindObjectOfType<MoveManager>().ObjectMovementCompleted();
+            }
         }
     }
 
@@ -72,6 +82,11 @@ public class SpawnerObject : MonoBehaviour
         else
         {
             isMovingDown = false;
+
+            if (!isMoveRight && !isMovingUp && !isMovingDown)
+            {
+                FindObjectOfType<MoveManager>().ObjectMovementCompleted();
+            }
         }
     }
 

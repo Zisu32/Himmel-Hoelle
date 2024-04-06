@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Serialization;
 
 public class MoveManager : MonoBehaviour
@@ -70,4 +70,23 @@ public class MoveManager : MonoBehaviour
     {
         changeText.podestText.text = newText;
     }
+
+    public void ObjectMovementCompleted()
+    {
+        bool allObjectsMoved = true;
+        foreach (SpawnerObject spawnObject in spawnObjects)
+        {
+            if (!spawnObject.isHimmel && !spawnObject.isHoelle)
+            {
+                allObjectsMoved = false;
+                break;
+            }
+        }
+
+        if (allObjectsMoved)
+        {
+            playerHealth.ShowEndPanel();
+        }
+    }
+
 }

@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public TextMeshProUGUI healthText; 
     public Image healthBar;
     public GameObject Panel;
+    public GameObject endLevelPanel;
 
     void Start()
     {
@@ -33,12 +34,19 @@ public class PlayerHealth : MonoBehaviour
 
         }
     }
-    
-    
+     
     public void GameOver()
     {
+        endLevelPanel.SetActive(false);
         Panel.SetActive(true);
     }
+
+    public void ShowEndPanel()
+    {
+        Panel.SetActive(false);
+        endLevelPanel.SetActive(true);
+    }
+
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
@@ -57,7 +65,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = "Health: " + Mathf.RoundToInt(currentHealth); 
+            healthText.text = "Time: " + Mathf.RoundToInt(currentHealth); 
         }
 
         if (healthBar != null)

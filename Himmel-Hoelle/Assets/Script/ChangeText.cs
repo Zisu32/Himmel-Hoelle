@@ -8,15 +8,13 @@ public class ChangeText : MonoBehaviour
 
     private void Start()
     {
-        moveManager = FindObjectOfType<MoveManager>(); // Find the MoveManager in the scene
+        moveManager = FindFirstObjectByType<MoveManager>(); // Find the MoveManager in the scene
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Podest"))
         {
-            Debug.Log("Collision with Podest");
-
             if (moveManager != null)
             {
                 switch (moveManager.currentIndex)
@@ -40,10 +38,6 @@ public class ChangeText : MonoBehaviour
                         podestText.text = "Default Text";
                         break;
                 }
-            }
-            else
-            {
-                Debug.LogWarning("MoveManager not found!");
             }
         }
     }

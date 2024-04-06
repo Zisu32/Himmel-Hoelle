@@ -12,6 +12,8 @@ public class SpawnerObject : MonoBehaviour
     private bool isSpawn = true; // Flag zur Verfolgung der Bewegung
     public bool isHimmel = false;
     public bool isHoelle = false;
+    public bool isGood = false;
+    public bool isEvil = false;
     private bool isMoveRight = false;
     private bool isMovingUp = false;
     private bool isMovingDown = false;

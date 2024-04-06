@@ -30,8 +30,6 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth <= 0f)
         {
             GameOver();
-            Debug.Log("Player died!");
-
         }
     }
      
@@ -50,17 +48,19 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
     }
 
     public void Heal(float amount)
     {
         currentHealth += amount;
-
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
     }
-
+    public void ShowEndPanel()
+    {
+        Panel.SetActive(false);
+        endLevelPanel.SetActive(true);
+    }
     void UpdateUI()
     {
         if (healthText != null)

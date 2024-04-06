@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using UnityEngine.Serialization;
+using UnityEngine;
 
 public class MoveManager : MonoBehaviour
 {
@@ -8,6 +7,7 @@ public class MoveManager : MonoBehaviour
     public ChangeText changeText; // Reference to the ChangeText component
     public PlayerHealth playerHealth;
     public AudioSource rollSound;
+    public float damage = 30f;
     private void Start()
     {
         if(spawnObjects.Length > 0)
@@ -16,7 +16,7 @@ public class MoveManager : MonoBehaviour
             rollSound.Play();
             
         }
-        playerHealth = FindObjectOfType<PlayerHealth>();
+        playerHealth = FindFirstObjectByType<PlayerHealth>();
 
     }
     public void MoveNextObject()
@@ -36,7 +36,8 @@ public class MoveManager : MonoBehaviour
     {
         if (currentIndex >= 0 && currentIndex < spawnObjects.Length)
         {
-            if(currentIndex == 1){
+            if(spawnObjects[currentIndex].isEvil)
+            {
                 playerHealth.GameOver();
             }
             
@@ -55,6 +56,11 @@ public class MoveManager : MonoBehaviour
     {
         if (currentIndex >= 0 && currentIndex < spawnObjects.Length)
         {
+            if(spawnObjects[currentIndex].isGood)
+            {
+                playerHealth.TakeDamage(damage);
+            }
+            
             spawnObjects[currentIndex].DownObj();
 
             currentIndex++;
@@ -65,12 +71,6 @@ public class MoveManager : MonoBehaviour
             }
         }
     }
-    // Method to change the text
-    public void ChangePodestText(string newText)
-    {
-        changeText.podestText.text = newText;
-    }
-
     public void ObjectMovementCompleted()
     {
         bool allObjectsMoved = true;
@@ -88,5 +88,4 @@ public class MoveManager : MonoBehaviour
             playerHealth.ShowEndPanel();
         }
     }
-
 }

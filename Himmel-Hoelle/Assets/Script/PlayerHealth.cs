@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public TextMeshProUGUI healthText; 
     public Image healthBar;
     public GameObject Panel;
+    public GameObject endLevelPanel;
 
     void Start()
     {
@@ -35,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
     
     public void GameOver()
     {
+        endLevelPanel.SetActive(false);
         Panel.SetActive(true);
     }
     public void TakeDamage(float damage)
@@ -48,7 +50,11 @@ public class PlayerHealth : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
     }
-
+    public void ShowEndPanel()
+    {
+        Panel.SetActive(false);
+        endLevelPanel.SetActive(true);
+    }
     void UpdateUI()
     {
         if (healthText != null)

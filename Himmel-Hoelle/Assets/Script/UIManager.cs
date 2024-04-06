@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
     public string sceneName;
+    public string sceneName_2;
 
     public void Restart()
     {
@@ -20,6 +19,11 @@ public class UIManager : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+    }
+
+    public void LoadLevel()
+    {
+        SceneManager.LoadScene(sceneName_2, LoadSceneMode.Single);
     }
 }
 

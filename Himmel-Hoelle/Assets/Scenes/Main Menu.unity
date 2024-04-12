@@ -408,7 +408,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 566806876}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneHowToPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -714,7 +714,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Intro Level 01
-  sceneName_2: How to Play
+  sceneName_2: 
+  sceneHowToPlay: How to Play
 --- !u!1 &607233424
 GameObject:
   m_ObjectHideFlags: 0

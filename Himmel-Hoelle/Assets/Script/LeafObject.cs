@@ -2,7 +2,7 @@
 
 public class LeafObject : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed = 500f;
     public float upPosition = 1000f;
     public float downPosition = -1000f;
     private bool movingUp = false;
@@ -13,6 +13,7 @@ public class LeafObject : MonoBehaviour
     void Start()
     {
         initialPosition = transform.position;
+        //moveManager = FindFirstObjectByType<MoveManager>();
     }
 
     void Update()

@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time: 120'
+  m_text: 'Time: 40'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 409321d02c64405489de172fce926a61, type: 2}
   m_sharedMaterial: {fileID: 7078176665240857814, guid: 409321d02c64405489de172fce926a61, type: 2}
@@ -1911,7 +1911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Main Menu
-  sceneName_2: Level 02
+  sceneName_2: Level 03
 --- !u!114 &517976253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2913,7 +2913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Main Menu
-  sceneName_2: Level 02
+  sceneName_2: Level 03
 --- !u!114 &911427661
 MonoBehaviour:
   m_ObjectHideFlags: 0

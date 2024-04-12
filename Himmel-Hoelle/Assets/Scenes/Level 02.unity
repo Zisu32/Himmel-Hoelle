@@ -163,7 +163,7 @@ Animator:
   m_GameObject: {fileID: 24717787}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a952111fd08b7364bbb611049bb83321, type: 2}
+  m_Controller: {fileID: 9100000, guid: fc2cd58dcdce4a746849ba0ea746987c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -932,7 +932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Main Menu
-  sceneName_2: Level 02
+  sceneName_2: Level 03
 --- !u!114 &197425076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4711,7 +4711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Main Menu
-  sceneName_2: Level 02
+  sceneName_2: Level 03
 --- !u!114 &1811370081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4988,7 +4988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time: 120'
+  m_text: 'Time: 60'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 409321d02c64405489de172fce926a61, type: 2}
   m_sharedMaterial: {fileID: 7078176665240857814, guid: 409321d02c64405489de172fce926a61, type: 2}

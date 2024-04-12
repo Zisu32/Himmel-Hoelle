@@ -32,8 +32,7 @@ public class PlayerHealth : MonoBehaviour
             GameOver();
         }
     }
-    
-    
+     
     public void GameOver()
     {
         endLevelPanel.SetActive(false);
@@ -50,11 +49,13 @@ public class PlayerHealth : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
     }
+
     public void ShowEndPanel()
     {
         Panel.SetActive(false);
         endLevelPanel.SetActive(true);
     }
+
     void UpdateUI()
     {
         if (healthText != null)

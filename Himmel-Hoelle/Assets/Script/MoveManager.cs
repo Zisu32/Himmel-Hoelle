@@ -9,6 +9,7 @@ public class MoveManager : MonoBehaviour
     public PlayerHealth playerHealth;
     public AudioSource rollSound;
     public float damage = 30f;
+    public float heal = 10f;
 
     private void Start()
     {
@@ -40,7 +41,8 @@ public class MoveManager : MonoBehaviour
             {
                 playerHealth.GameOver();
             }
-
+            
+            playerHealth.Heal(heal);
             spawnObjects[currentIndex].UpObj();
 
             lastMovedIndex = currentIndex;

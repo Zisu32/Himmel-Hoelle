@@ -5,7 +5,7 @@ using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
     public float maxHealth = 100f; 
-    public float healthDecayRate = 0.5f; 
+    public float healthDecayRate = 1f; 
     private float currentHealth; 
     public TextMeshProUGUI healthText; 
     public Image healthBar;

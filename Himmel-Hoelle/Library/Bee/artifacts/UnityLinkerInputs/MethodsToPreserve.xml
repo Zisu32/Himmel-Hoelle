@@ -1,0 +1,57 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="LeafObject">
+			<method name="MoveLeafDown"/>
+			<method name="MoveLeafDown"/>
+			<method name="MoveLeafDown"/>
+			<method name="MoveLeafUp"/>
+			<method name="MoveLeafUp"/>
+			<method name="MoveLeafUp"/>
+		</type>
+		<type fullname="MoveManager">
+			<method name="MoveCurrentObjectDown"/>
+			<method name="MoveCurrentObjectDown"/>
+			<method name="MoveCurrentObjectDown"/>
+			<method name="MoveCurrentObjectUp"/>
+			<method name="MoveCurrentObjectUp"/>
+			<method name="MoveCurrentObjectUp"/>
+			<method name="MoveNextObject"/>
+			<method name="MoveNextObject"/>
+			<method name="MoveNextObject"/>
+		</type>
+		<type fullname="PlaySound">
+			<method name="playEjectedSound"/>
+			<method name="playEjectedSound"/>
+			<method name="playEjectedSound"/>
+			<method name="playRollSound"/>
+			<method name="playRollSound"/>
+			<method name="playRollSound"/>
+			<method name="playStaySound"/>
+			<method name="playStaySound"/>
+			<method name="playStaySound"/>
+		</type>
+		<type fullname="UIManager">
+			<method name="CloseGame"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadLevel"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="LoadScene"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+			<method name="Restart"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AnimationModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Animator">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+	</assembly>
+</linker>

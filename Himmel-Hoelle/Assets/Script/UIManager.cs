@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
     public string sceneName;
     public string sceneName_2;
     public string sceneHowToPlay;
+    public string sceneMainMenu;
 
     public void Restart()
     {
@@ -25,6 +26,11 @@ public class UIManager : MonoBehaviour
     public void LoadSceneHowToPlay()
     {
         SceneManager.LoadScene(sceneHowToPlay, LoadSceneMode.Single);
+    }    
+    
+    public void LoadSceneMainMenu()
+    {
+        SceneManager.LoadScene(sceneMainMenu, LoadSceneMode.Single);
     }
 
     public void LoadLevel()

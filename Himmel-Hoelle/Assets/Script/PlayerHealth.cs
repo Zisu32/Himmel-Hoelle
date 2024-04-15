@@ -60,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = "Time: " + Mathf.RoundToInt(currentHealth); 
+            healthText.text = "" + Mathf.RoundToInt(currentHealth); 
         }
 
         if (healthBar != null)

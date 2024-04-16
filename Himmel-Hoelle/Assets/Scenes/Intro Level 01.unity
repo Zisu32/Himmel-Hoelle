@@ -652,7 +652,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wer hat aus dem Garten die Pilze geklaut ?
+  m_text: 'Level 1: Pilzdieb
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1091,13 +1093,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\r\rIn den idyllischen G\xE4rten von Feywood gab es eine wundersame Vielfalt
-    an Pilzen, die in bunten Reihen zwischen den Blumen und Str\xE4uchern wuchsen.
-    Doch eines Morgens entdeckte die alte G\xE4rtnerin, Frau Glimmerblatt, dass ihre
-    pr\xE4chtigen Pilze verschwunden waren.\r\n\r\nVerwirrt und ver\xE4rgert wandte
-    sie sich an die Feen des Waldes, um Hilfe zu bekommen. Die Feen, mit ihrer untr\xFCglichen
-    Sp\xFCrnase, machten sich sofort auf die Suche nach Hinweisen. Sie fanden verd\xE4chtige
-    Fu\xDFspuren, die zu einem kleinen Fuchsbau f\xFChrten."
+  m_text: "In den idyllischen G\xE4rten von Feywood gab es bis vor Kurzem eine wundersame
+    Vielfalt an Pilzen, die in bunten Reihen zwischen den Blumen und Str\xE4uchern
+    wuchsen. Jeder einzelne von ihnen besa\xDF au\xDFergew\xF6hnliche Heil- oder
+    Schutzzauber, die dem gesamten Wald in Zeiten der Not von gro\xDFem Wert waren.
+    Doch heute Morgen entdeckte die alte G\xE4rtnerin Frau Glimmerblatt, dass ihre
+    pr\xE4chtigen Pilze verschwunden waren. Jemand hatte sich durch die dornigen
+    roten Rosen gek\xE4mpft und die Pilze grob mit einer Klinge abgeschnitten, sodass
+    nur noch die unteren Stiele \xFCbrig blieben.\n\nVerwirrt und ver\xE4rgert wandte
+    sich Frau Glimmerblatt an den H\xFCter der Fey, damit dieser den Dieb ausfindig
+    macht und f\xFCr Gerechtigkeit sorgt."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1124,8 +1129,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

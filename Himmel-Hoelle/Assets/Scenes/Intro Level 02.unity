@@ -666,7 +666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Der schreckliche Waldbrand
+  m_text: 'Level 2: Waldbrand'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1082,7 +1082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: -285}
+  m_AnchoredPosition: {x: 17, y: -352}
   m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &790995273
@@ -1105,11 +1105,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In den schattigen W\xE4ldern von Feywood war eine d\xFCstere Stimmung
-    eingekehrt. Die B\xE4ume, einst stolz und majest\xE4tisch, waren nun verkohlt
-    und zerst\xF6rt, die Luft erf\xFCllt von Rauch und Asche. Die Feen des Waldes
-    waren entsetzt \xFCber das Ausma\xDF der Zerst\xF6rung und eilten zur Brandstelle,
-    um nach Hinweisen zu suchen."
+  m_text: "Es ist ein besonders hei\xDFer und trockener Tag in Feywood. In den einst
+    nur so vor Leben strotzenden W\xE4ldern W\xE4ldern von Feywood war eine d\xFCstere
+    Stimmung eingekehrt. Die B\xE4ume in der N\xE4he des Nymphenschlosses sind nun
+    nichts weiter als  verkohlte St\xFCmpfe, die Luft erf\xFCllt von Rauch und Asche.
+    Den Nymphen gelang es zwar, das Feuer zu l\xF6schen, bevor eines der dort lebenden
+    Eichh\xF6rnchen zu Schaden kam, doch die Bewohner des Waldes sind dennoch entsetzt
+    \xFCber das Ausma\xDF der Zerst\xF6rung.\n\nSchnell ist klar, dass dieser Waldbrand
+    kein Unfall sein kann. Es dauert nicht lange, bis der H\xFCter der Fey gerufen
+    wird, um den Fall zu untersuchen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1136,8 +1140,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

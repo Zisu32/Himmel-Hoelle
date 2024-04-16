@@ -516,7 +516,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Mord im Wald
+  m_text: 'Level 3: Fey-Mord'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -932,7 +932,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: -401}
+  m_AnchoredPosition: {x: 17, y: -363}
   m_SizeDelta: {x: 800, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &790995273
@@ -955,14 +955,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "In den stillen W\xE4ldern von Feywood herrschte eine unheimliche Stille,
-    als die Feen eine entsetzliche Entdeckung machten: Eine leblose Fey-Leiche lag
-    zwischen den majest\xE4tischen B\xE4umen, umgeben von einer Aura der Trauer und
-    des Verlusts.\r\n\r\nDie Feen, schockiert und betroffen, eilten herbei, um die
-    Umst\xE4nde des tragischen Vorfalls zu untersuchen. Sie fanden Hinweise auf einen
-    Kampf nahe der Fundstelle, mit gebrochenen Zweigen und Kratzspuren auf dem Boden.\r\n\r\nEin
-    St\xFCck feenhaftes Gewand, das an einem Ast h\xE4ngenblieb, und Spuren von fremdartigem
-    Blut, das die Blumen um die Leiche herum rot f\xE4rbte."
+  m_text: "In den W\xE4ldern von Feywood herrscht eine unheimliche Stille, als die
+    Bewohner eine entsetzliche Entdeckung machen: ein lebloser Fey liegt zwischen
+    den majest\xE4tischen B\xE4umen, umgeben von einer Aura der Trauer und des Verlusts.
+    Marcy, die Werw\xF6lfin, wurde aus dem Leben gerissen.\n\nDie Bewohner eilen
+    herbei, um die Umst\xE4nde des tragischen Vorfalls zu untersuchen. Sie finden
+    Hinweise auf einen Kampf nahe der Fundstelle mit Kratzspuren auf dem Boden. Doch 
+    weitere Hinweise finden sich in der N\xE4he der Leiche selbst: ein St\xFCck feenhaftes
+    gelbes Gewand, das an einem Ast h\xE4ngenblieb, sowie gro\xDFe Vogelfu\xDFspuren
+    und Tropfen einer gr\xFCnen Fl\xFCssigkeit, die die Blumen um die Leiche herum
+    verf\xE4rbt."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -989,8 +991,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

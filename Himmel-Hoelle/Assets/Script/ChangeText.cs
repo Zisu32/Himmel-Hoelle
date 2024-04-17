@@ -23,13 +23,13 @@ public class ChangeText : MonoBehaviour
                         podestText.text = "Ich schwöre bei den Sternen des Feywood, ich habe niemals einen Pilz berührt! Ich bin eine Hüterin der Natur, nicht eine Diebin. Meine Verbindung zum Wald ist tiefer als Worte es beschreiben können. Jede Pflanze, jedes Tier, sie sind wie Familie für mich. Es tut mir leid, dass ich nicht mehr helfen kann, aber ich bin genauso verwirrt und bestürzt wie jeder andere über das Verschwinden der Pilze.";
                         break;
                     case 1:
-                        podestText.text = "Okay, die Pilze hätte ich super gebrauchen können, um meine Experimente zu verbessern. Aber klauen? Nein, das würde ich niemals wagen! Ich bin ein Forscher. Die Welt bietet so viele Möglichkeiten, so viele Ressourcen. Warum sollte ich mir die Mühe machen, etwas zu nehmen, das mir nicht gehört? Auch, wenn ich nicht immer der Vorzeigebewohner bin, steheln würde ich niemals.";
-                        break;
-                    case 2:
                         podestText.text = "Ich bin ein Jäger, kein Dieb! Ich habe besseres zu tun, als mich mit so etwas herumzuschlagen. Mein Tag besteht aus der Jagd nach wilden Tieren und dem Schutz dieser Gärten vor gefährlichen Eindringlingen. Warum sollte ich mir die Mühe machen, Pilze zu stehlen? Es ist lächerlich, überhaupt daran zu denken.";
                         break;
-                    case 3:
+                    case 2:
                         podestText.text = "Warum sollte ich die Pilze stehlen? Ich könnte viel schönere Dinge tun, als mich mit so etwas zu beschäftigen. Es muss jemand anderes gewesen sein. Mein Leben ist voller Abenteuer und Magie. Ich fliege durch die Lüfte, erkunde verborgene Orte und lerne von den Weisheiten des Waldes. Das Sammeln von Pilzen liegt nicht in meiner Natur.";
+                        break;
+                    case 3:
+                        podestText.text = "Okay, die Pilze hätte ich super gebrauchen können, um meine Experimente zu verbessern. Aber klauen? Nein, das würde ich niemals wagen! Ich bin ein Forscher. Die Welt bietet so viele Möglichkeiten, so viele Ressourcen. Warum sollte ich mir die Mühe machen, etwas zu nehmen, das mir nicht gehört? Auch, wenn ich nicht immer der Vorzeigebewohner bin, steheln würde ich niemals.";
                         break;
                     case 4:
                         podestText.text = "Ich würde niemals etwas tun, um den Garten zu schädigen. Die Pilze sind ein wichtiger Teil unseres Ökosystems. Es muss jemand anders gewesen sein. Meine Verbindung zur Natur ist meine Stärke und meine Leidenschaft. Ich beschütze und pflege diesen Garten, als wäre er mein eigenes Kind. Die Idee, dass ich irgendjemandem schaden würde, ist absurd. Ich bin eine Hüterin, eine Beschützerin, nicht eine Diebin.";

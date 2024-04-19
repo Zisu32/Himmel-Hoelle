@@ -6556,7 +6556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 500
   upPosition: 350
-  downPosition: -650
+  downPosition: -450
 --- !u!1 &2115408262
 GameObject:
   m_ObjectHideFlags: 0

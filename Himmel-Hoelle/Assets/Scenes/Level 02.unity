@@ -564,6 +564,114 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1099882856}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char2
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1360254689}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char3
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 814759533}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char4
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1128194991}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char5
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1623739552}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char6
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2063813694}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char7
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 341631025}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char8
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1046718156}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char9
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1609074445}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char10
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &255721161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -957,7 +1065,7 @@ Animator:
   m_GameObject: {fileID: 341631021}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 525d1073fbda99a48a0bc837e726b710, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1012,7 +1120,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: 2031761209, guid: 58d18d6dad2e34d48972ba75b8f0be17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1460,6 +1568,114 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1099882856}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char2
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1360254689}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char3
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 814759533}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char4
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1128194991}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char5
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1623739552}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char6
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2063813694}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char7
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 341631025}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char8
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1046718156}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char9
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1609074445}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Char10
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &459172923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1891,7 +2107,7 @@ Animator:
   m_GameObject: {fileID: 584803932}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: affd486bca401d14785fc8ab2a4d3a98, type: 2}
+  m_Controller: {fileID: 9100000, guid: d7015106fe295c8498e65a292a613f8d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1946,7 +2162,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1526230579, guid: 1c8d45932b8838d478e4ebce7d803ccc, type: 3}
+  m_Sprite: {fileID: -2007611207, guid: 6478560e77dfc9b4c8599be94ce1ff48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2639,7 +2855,7 @@ Animator:
   m_GameObject: {fileID: 814759529}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 478b99f40a8431b499c7a79499d24421, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2694,7 +2910,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -1869126169, guid: a4042ce4d3bacae4db8bd4bbe2da360d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2941,7 +3157,7 @@ Animator:
   m_GameObject: {fileID: 1046718152}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 10e28628f07e3cb4cb2634b05c97eacb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2996,7 +3212,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -1865058017, guid: 6c2556682838da243859d3f2193bbc08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3230,7 +3446,7 @@ Animator:
   m_GameObject: {fileID: 1099882852}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 90c189a049c6a4c41884f0dca51a9352, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3285,7 +3501,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -345798033, guid: ae46756cab73f554fb545fcb7c9f117b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3552,7 +3768,7 @@ Animator:
   m_GameObject: {fileID: 1128194987}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 02b58c7274a0dd24e903fae342f069cc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3607,7 +3823,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -1417931902, guid: 220156857ce719348a21ababdc1ae1c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4044,7 +4260,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8da446b90dc91694eba5036a387e797e, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8da446b90dc91694eba5036a387e797e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
@@ -4468,7 +4684,7 @@ Animator:
   m_GameObject: {fileID: 1360254685}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3167f0d344fc21d4d9900ad936d05ec9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4523,7 +4739,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -1480488955, guid: 5d2e36dd38ab00143ae04128c08d0402, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5084,7 +5300,7 @@ Animator:
   m_GameObject: {fileID: 1609074441}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 09b4e54c966ec5f4090265568885512f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5139,7 +5355,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -571405620, guid: 16a8669bc6799b04b9f3f816034e23da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5250,7 +5466,7 @@ Animator:
   m_GameObject: {fileID: 1623739548}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: 788dcc67d90111f4da17344a50642a7a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5305,7 +5521,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -1673562739, guid: 4d0c6b50f4f41d24e9716861eb8fa65b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5870,7 +6086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 500
   upPosition: 350
-  downPosition: -650
+  downPosition: -450
 --- !u!95 &2025261057
 Animator:
   serializedVersion: 7
@@ -6311,7 +6527,7 @@ Animator:
   m_GameObject: {fileID: 2063813690}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a3227fd30b096cf4ab75a375b12b7648, type: 2}
+  m_Controller: {fileID: 9100000, guid: cb7fe0720bf22c5419a3619241a227b2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6366,7 +6582,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1099384143, guid: c991c16e38b5dc545aff99d116b41f04, type: 3}
+  m_Sprite: {fileID: -729373202, guid: 95766a1e8b454a346a20c5c2d0643d2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

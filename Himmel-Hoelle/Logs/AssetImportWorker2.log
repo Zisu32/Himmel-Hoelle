@@ -15,7 +15,7 @@ C:/Users/pas_l/Documents/RWU/GameDesign/Himmel-Hoelle/Himmel-Hoelle
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57390
+62146
 -job-worker-count
 11
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/pas_l/Documents/RWU/GameDesign/Himmel-Hoelle/Himmel-Hoelle
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21008] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 801230366 [EditorId] 801230366 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [21008] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 801230366 [EditorId] 801230366 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22804] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 3580427455 [EditorId] 3580427455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22804] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 3580427455 [EditorId] 3580427455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.13f1 (70197a359f36)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003887 seconds.
-- Loaded All Assemblies, in  0.484 seconds
+Registered in 0.003471 seconds.
+- Loaded All Assemblies, in  0.463 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.389 seconds
-Domain Reload Profiling: 870ms
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 820ms
 	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
+	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (143ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (144ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (185ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (389ms)
+	FinalizeReload (360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
+		SetupLoadedEditorAssemblies (290ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (7ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (220ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,50 +150,58 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\pas_l\Documents\RWU\GameDesign\Himmel-Hoelle\Himmel-Hoelle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\pas_l\Documents\RWU\GameDesign\Himmel-Hoelle\Himmel-Hoelle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.000 seconds
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.862 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.677 seconds
-Domain Reload Profiling: 1671ms
-	BeginReloadAssembly (410ms)
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1538ms
+	BeginReloadAssembly (336ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (471ms)
-		LoadAssemblies (378ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (320ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (178ms)
-			BuildScriptInfoCaches (25ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (678ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (684ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
+		SetupLoadedEditorAssemblies (467ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (6ms)
 			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (356ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3216 unused Assets / (1.1 MB). Loaded Objects now: 3786.
-Memory consumption went from 120.4 MB to 119.3 MB.
-Total: 8.760000 ms (FindLiveObjects: 0.681500 ms CreateObjectMapping: 0.221700 ms MarkObjects: 6.270100 ms  DeleteObjects: 1.585300 ms)
+Unloading 3216 unused Assets / (1.0 MB). Loaded Objects now: 3786.
+Memory consumption went from 120.4 MB to 119.4 MB.
+Total: 8.636500 ms (FindLiveObjects: 0.723800 ms CreateObjectMapping: 0.253700 ms MarkObjects: 6.499200 ms  DeleteObjects: 1.158000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 298683.793481 seconds.
+  path: Assets/Sprites/Char/Level2/Animatiom-Aurora.png
+  artifactKey: Guid(4d0c6b50f4f41d24e9716861eb8fa65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level2/Animatiom-Aurora.png using Guid(4d0c6b50f4f41d24e9716861eb8fa65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b1309609ef91650844247617f2c099') in 0.0886553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

@@ -23,7 +23,7 @@ public class ChangeText3 : MonoBehaviour
                         podestText.text = "Ich war die erste Person am Tatort... Ich war zur falschen Zeit am falschen Ort. Bitte glaubt mir, ich würde niemals jemandem absichtlich Schaden zufügen! Ich kann nicht einmal eine Mücke zerquetschen... Meine Brille beschlug vor Tränen, als ich die leblose Fey-Leiche sah. Es tut mir so leid für das Opfer und seine Familie. Ich hoffe, der wahre Täter wird bald gefasst.";
                         break;
                     case 1:
-                        podestText.text = "Ich mag vielleicht einschüchternd wirken, aber ich schwöre bei den Wurzeln des Schicksalsbaums, ich habe nichts mit diesem abscheulichen Vorfall zu tun! Ich bin Stolz drauf, mich einen guten Freund von Marcy nennen zu dürfen, denn wie es aussieht hat sie sich ziemlich gewehrt! Möge ihr Mörder sich stellen und ihr so Ehre erweisen!";
+                        podestText.text = "Ich mag vielleicht mysteriös wirken, aber ich versichere euch, ich habe nichts mit dem Tod dieser armen Seele zu tun. Ich war viel zu beschäftigt damit, die Geheimnisse des Feywoods zu erforschen. Meine Schritte hallten in der Stille wider, als ich am Tatort ankam. Möge das Echo der Wahrheit die Dunkelheit vertreiben.";
                         break;
                     case 2:
                         podestText.text = "Ich habe wirklich keine Ahnung, was passiert ist. Ich war viel zu beschäftigt damit, die Schönheit dieser magischen Wälder zu bewundern, um irgendjemandem etwas anzutun! Vor ein paar Stunden sind meine grade angezüchteten Glühwürmchenlarven geschlüpft, das sind viele hungrige Larvenmäuler, um die ich mich kümmern muss! Ich hoffe, der Täter wird schnell gefasst und zur Rechenschaft gezogen.";
@@ -47,7 +47,7 @@ public class ChangeText3 : MonoBehaviour
                         podestText.text = "Ja, ich bin giftig, aber das bedeutet nicht, dass ich jemanden getötet habe! Ich war vollauf damit beschäftigt, meine Tränke zu brauen. Der arme Vladimir, ihm muss es schrecklich gehen! Ich als seine beste Freundin sollte mich direkt um ihn kümmern – er war doch so verliebt in Marcy, obwohl er so viel mehr verdient hätte... Er braucht sicher jemanden, der für ihn da ist.";
                         break;
                     case 9:
-                        podestText.text = "Ich mag vielleicht mysteriös wirken, aber ich versichere euch, ich habe nichts mit dem Tod dieser armen Seele zu tun. Ich war viel zu beschäftigt damit, die Geheimnisse des Feywoods zu erforschen. Meine Schritte hallten in der Stille wider, als ich am Tatort ankam. Möge das Echo der Wahrheit die Dunkelheit vertreiben.";
+                        podestText.text = "Ich mag vielleicht einschüchternd wirken, aber ich schwöre bei den Wurzeln des Schicksalsbaums, ich habe nichts mit diesem abscheulichen Vorfall zu tun! Ich bin Stolz drauf, mich einen guten Freund von Marcy nennen zu dürfen, denn wie es aussieht hat sie sich ziemlich gewehrt! Möge ihr Mörder sich stellen und ihr so Ehre erweisen!";
                         break; 
                     default:
                         podestText.text = "Default Text";

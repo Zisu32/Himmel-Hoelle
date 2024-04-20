@@ -15,7 +15,7 @@ C:/Users/pas_l/Documents/RWU/GameDesign/Himmel-Hoelle/Himmel-Hoelle
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62146
+64656
 -job-worker-count
 11
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/pas_l/Documents/RWU/GameDesign/Himmel-Hoelle/Himmel-Hoelle
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22804] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 3580427455 [EditorId] 3580427455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [22804] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 3580427455 [EditorId] 3580427455 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20488] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 638983120 [EditorId] 638983120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20488] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 638983120 [EditorId] 638983120 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHC9ERQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.13f1 (70197a359f36)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,41 +93,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003471 seconds.
-- Loaded All Assemblies, in  0.463 seconds
+Registered in 0.005089 seconds.
+- Loaded All Assemblies, in  0.796 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.360 seconds
-Domain Reload Profiling: 820ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1342ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (208ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (203ms)
-				TypeCache.ScanAssembly (185ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (328ms)
+				TypeCache.ScanAssembly (299ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (360ms)
+	FinalizeReload (562ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (290ms)
+		SetupLoadedEditorAssemblies (465ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,57 +150,97 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\pas_l\Documents\RWU\GameDesign\Himmel-Hoelle\Himmel-Hoelle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\pas_l\Documents\RWU\GameDesign\Himmel-Hoelle\Himmel-Hoelle\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.862 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.472 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.683 seconds
-Domain Reload Profiling: 1538ms
-	BeginReloadAssembly (336ms)
+- Finished resetting the current domain, in  1.039 seconds
+Domain Reload Profiling: 2504ms
+	BeginReloadAssembly (557ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (320ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (719ms)
+		LoadAssemblies (575ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (150ms)
-			BuildScriptInfoCaches (28ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (684ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (255ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1039ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (691ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (373ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (574ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 3216 unused Assets / (1.0 MB). Loaded Objects now: 3786.
-Memory consumption went from 120.4 MB to 119.4 MB.
-Total: 8.636500 ms (FindLiveObjects: 0.723800 ms CreateObjectMapping: 0.253700 ms MarkObjects: 6.499200 ms  DeleteObjects: 1.158000 ms)
+Memory consumption went from 120.4 MB to 119.3 MB.
+Total: 12.379400 ms (FindLiveObjects: 0.808200 ms CreateObjectMapping: 0.287800 ms MarkObjects: 9.555800 ms  DeleteObjects: 1.725900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 298683.793481 seconds.
-  path: Assets/Sprites/Char/Level2/Animatiom-Aurora.png
-  artifactKey: Guid(4d0c6b50f4f41d24e9716861eb8fa65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Char/Level2/Animatiom-Aurora.png using Guid(4d0c6b50f4f41d24e9716861eb8fa65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2b1309609ef91650844247617f2c099') in 0.0886553 seconds
+  Time since last request: 344992.047604 seconds.
+  path: Assets/Sprites/Char/Level3/Aria.png
+  artifactKey: Guid(74c7e284bd9853947822e085aabba5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level3/Aria.png using Guid(74c7e284bd9853947822e085aabba5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08df697df9a7be3aba426c39807cc236') in 0.0972567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573107 seconds.
+  path: Assets/Sprites/Char/Level3/Ivy.png
+  artifactKey: Guid(5cd962ba644ca6843a9454a0ff966811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level3/Ivy.png using Guid(5cd962ba644ca6843a9454a0ff966811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d698fcd8f4b933b09cb7e6a0de51688') in 0.0138277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018395 seconds.
+  path: Assets/Sprites/Char/Level3/Sylph.png
+  artifactKey: Guid(b6a28e0a971a33d4d88673671d05f263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level3/Sylph.png using Guid(b6a28e0a971a33d4d88673671d05f263) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c871d67c1423e9b8c0238a22ac4ff71') in 0.0138997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014011 seconds.
+  path: Assets/Sprites/Char/Level3/Vladimir.png
+  artifactKey: Guid(7f693cdb994c4074bb6f69c4bc23e6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level3/Vladimir.png using Guid(7f693cdb994c4074bb6f69c4bc23e6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b92f0b5232cb084c8e69e5bfece51154') in 0.012589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.211754 seconds.
+  path: Assets/Sprites/Char/Level3/Animatiom-Elia.png
+  artifactKey: Guid(59d2a50aff70e4445bd2162a06f2fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level3/Animatiom-Elia.png using Guid(59d2a50aff70e4445bd2162a06f2fd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7aad89515703fd81acad69c43af8c046') in 0.0125991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Char/Level3/Animatiom-Sylph.png
+  artifactKey: Guid(7650b46cc511d364d8fad700850d7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Char/Level3/Animatiom-Sylph.png using Guid(7650b46cc511d364d8fad700850d7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e351f83c5b4112b8df73807bb477465e') in 0.0100334 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

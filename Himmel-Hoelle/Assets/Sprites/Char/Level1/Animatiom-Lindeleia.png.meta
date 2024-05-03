@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,8 +102,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c705edca04eebfa47a7272f77483a520
-      internalID: -906996168
+      spriteID: b5699a0008bfafd4eaf2ef2a1f43731a
+      internalID: -1739831448
       vertices: []
       indices: 
       edges: []
@@ -121,10 +121,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f70b50dca0afce14ab502f5db0f5a823
-      internalID: -228159336
+      spriteID: 816331c58c4a90545aae008dcef4e7f6
+      internalID: -653932547
       vertices: []
       indices: 
       edges: []
@@ -142,10 +142,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 1000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f5abbf12c893545a4183bfc94dd64c
-      internalID: 2000159179
+      spriteID: aef7a88685ccc6c4e8b7682504d85cb1
+      internalID: -827467380
       vertices: []
       indices: 
       edges: []
@@ -163,10 +163,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 1500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fac035e3f8dc7334a8013ca12c4b7cc4
-      internalID: -1081020100
+      spriteID: 47c8b8319be39824c9b15d57d974779a
+      internalID: -843900292
       vertices: []
       indices: 
       edges: []
@@ -184,10 +184,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_4
       rect:
         serializedVersion: 2
-        x: 400
+        x: 2000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb1251fe652e32f49b9b675879707624
-      internalID: 308050914
+      spriteID: c3d8bc08b14540d4293a74c119eb464d
+      internalID: -1187000076
       vertices: []
       indices: 
       edges: []
@@ -205,10 +205,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_5
       rect:
         serializedVersion: 2
-        x: 500
+        x: 2500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81feda71e779dea4ab8f078b81fec66a
-      internalID: -183008068
+      spriteID: 2264d28258a29f9459817aa3aca5368d
+      internalID: -1951371996
       vertices: []
       indices: 
       edges: []
@@ -226,10 +226,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_6
       rect:
         serializedVersion: 2
-        x: 600
+        x: 3000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e5fb860cd6eb6d41803b8c298d899f3
-      internalID: -612235919
+      spriteID: 1b06954b45deb2846b5a71c65ac6de73
+      internalID: -367251998
       vertices: []
       indices: 
       edges: []
@@ -247,10 +247,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_7
       rect:
         serializedVersion: 2
-        x: 700
+        x: 3500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 581b62d4f5df8044b98bc81a50c23acc
-      internalID: -909320964
+      spriteID: 4da12470060dd9745805ac06acef9c38
+      internalID: 943614679
       vertices: []
       indices: 
       edges: []
@@ -268,10 +268,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_8
       rect:
         serializedVersion: 2
-        x: 800
+        x: 4000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2ecfbffd56ef2042a8c4d2811ba7c85
-      internalID: 219526143
+      spriteID: 30b594b7c14171540a346ce27d7fd085
+      internalID: -4488828
       vertices: []
       indices: 
       edges: []
@@ -289,10 +289,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_9
       rect:
         serializedVersion: 2
-        x: 900
+        x: 4500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93ca2a568aa84c44969988d969d9fac
-      internalID: 656930386
+      spriteID: 883363445b43fb34eaa80872b720e695
+      internalID: -596487344
       vertices: []
       indices: 
       edges: []
@@ -310,10 +310,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_10
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 5000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,8 +321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21f56e7aef3d5d248aa5681930763754
-      internalID: 51340223
+      spriteID: a75e082fb073d4e40939b1bbb4a5838e
+      internalID: 1426979770
       vertices: []
       indices: 
       edges: []
@@ -331,10 +331,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_11
       rect:
         serializedVersion: 2
-        x: 1100
+        x: 5500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,8 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5449443f43d7d374798fa8467e2b392e
-      internalID: -1960458359
+      spriteID: 1ad4320906442bd4a942c0e1bf9bb14b
+      internalID: 1341607084
       vertices: []
       indices: 
       edges: []
@@ -352,10 +352,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_12
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 6000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,8 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e86e11c4ac7b88478e93b4854c922f0
-      internalID: -88993016
+      spriteID: 479933c69f9fd204197ca15ab7c9443c
+      internalID: 2091162419
       vertices: []
       indices: 
       edges: []
@@ -373,10 +373,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_13
       rect:
         serializedVersion: 2
-        x: 1300
+        x: 6500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 140817da12131ce4f88dfc3128ac7d2d
-      internalID: -1621677355
+      spriteID: 4e337b483198da6428105b45276334c3
+      internalID: -1221646857
       vertices: []
       indices: 
       edges: []
@@ -394,10 +394,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_14
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 7000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,8 +405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff5665a82d26b9547b0ac740ac487c5c
-      internalID: 333787032
+      spriteID: 2b9f8ec3456b5ae44b8197be12acc678
+      internalID: 1030964971
       vertices: []
       indices: 
       edges: []
@@ -415,10 +415,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_15
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 7500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56fd1bd51677ad47a1dbffbaa6512a6
-      internalID: 970705099
+      spriteID: 338f3e4eacbfc0a4c8962f8d75654bfa
+      internalID: -1282746522
       vertices: []
       indices: 
       edges: []
@@ -436,10 +436,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_16
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 8000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,8 +447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c86efe2feedcb47a084525b8292aad
-      internalID: -132515012
+      spriteID: 7e83351941628484291cd714c16eb56e
+      internalID: -1582982623
       vertices: []
       indices: 
       edges: []
@@ -457,10 +457,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_17
       rect:
         serializedVersion: 2
-        x: 1700
+        x: 8500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,8 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af4bb54c22abf4438b92b9ef4a61b24
-      internalID: 270174073
+      spriteID: bdd3787e8511d1744ad3f915f0a136ab
+      internalID: -23901252
       vertices: []
       indices: 
       edges: []
@@ -478,10 +478,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_18
       rect:
         serializedVersion: 2
-        x: 1800
+        x: 9000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,8 +489,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee10e3b07761f0428763b99f3c96384
-      internalID: 666635716
+      spriteID: d9a2ab9e4180f884eaae2789b5860e0d
+      internalID: 72794784
       vertices: []
       indices: 
       edges: []
@@ -499,10 +499,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_19
       rect:
         serializedVersion: 2
-        x: 1900
+        x: 9500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,8 +510,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f55ac68dd1053254d80630612b8ad3d2
-      internalID: 538006029
+      spriteID: 56433677e6a9b5c4f9ac494702206a2d
+      internalID: -2136853300
       vertices: []
       indices: 
       edges: []
@@ -520,10 +520,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_20
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 10000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,8 +531,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe5291011cae7064ebabbcf2939ed66d
-      internalID: 2022055501
+      spriteID: f01ad0b1da62c8c4e8f807352ab105b4
+      internalID: 1154278426
       vertices: []
       indices: 
       edges: []
@@ -541,10 +541,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_21
       rect:
         serializedVersion: 2
-        x: 2100
+        x: 10500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,8 +552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3d0805456327e645931040d2c988bad
-      internalID: 1360544397
+      spriteID: 051db0679b7bbe84b99c761f80d96984
+      internalID: 18116670
       vertices: []
       indices: 
       edges: []
@@ -562,10 +562,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_22
       rect:
         serializedVersion: 2
-        x: 2200
+        x: 11000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,8 +573,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fb4df1aa4dcbde4e85fe91974e6042a
-      internalID: -311058485
+      spriteID: a3b60c4d9a3e8ad4db8c23563de1748f
+      internalID: -1973763607
       vertices: []
       indices: 
       edges: []
@@ -583,10 +583,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_23
       rect:
         serializedVersion: 2
-        x: 2300
+        x: 11500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,8 +594,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ade54ce2c48298748935da5b810c97d1
-      internalID: -196969506
+      spriteID: d0a8b61af1516a84888019b2cc99ddab
+      internalID: 1511261298
       vertices: []
       indices: 
       edges: []
@@ -604,10 +604,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_24
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 12000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,8 +615,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fc734e8885263e45a1a8989eae86177
-      internalID: 1902026719
+      spriteID: 452819d0a600ff840b454f4289e3c7e1
+      internalID: -2010209994
       vertices: []
       indices: 
       edges: []
@@ -625,10 +625,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_25
       rect:
         serializedVersion: 2
-        x: 2500
+        x: 12500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,8 +636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc4e77338788cf4e8bfdec7d74ecb0b
-      internalID: 1377869555
+      spriteID: 990d0f5752c8e8e479466af32d7606fa
+      internalID: 1447530073
       vertices: []
       indices: 
       edges: []
@@ -646,10 +646,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_26
       rect:
         serializedVersion: 2
-        x: 2600
+        x: 13000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,8 +657,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae1d001d7352e554c864587a60b7316f
-      internalID: 1592216511
+      spriteID: 200d2764b580656408be307ff119d507
+      internalID: -518590858
       vertices: []
       indices: 
       edges: []
@@ -667,10 +667,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_27
       rect:
         serializedVersion: 2
-        x: 2700
+        x: 13500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,8 +678,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f026c5f94ac03489be8852d1872af5
-      internalID: -1746588715
+      spriteID: 50a422b52863239489c0f70e46d05dbf
+      internalID: -1690849385
       vertices: []
       indices: 
       edges: []
@@ -688,10 +688,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_28
       rect:
         serializedVersion: 2
-        x: 2800
+        x: 14000
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,8 +699,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3a8a1232191764aa4a89ec91704375
-      internalID: 957708010
+      spriteID: c67b2b16107a94741be6881e77207333
+      internalID: 1532620607
       vertices: []
       indices: 
       edges: []
@@ -709,10 +709,10 @@ TextureImporter:
       name: Animatiom-Lindeleia_29
       rect:
         serializedVersion: 2
-        x: 2900
+        x: 14500
         y: 0
-        width: 100
-        height: 100
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,8 +720,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee1911df62d2764e98bebef2787e19e
-      internalID: -1589384903
+      spriteID: cdcb58128c42249469d6fad577a57800
+      internalID: -1703895955
       vertices: []
       indices: 
       edges: []
@@ -729,7 +729,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a867a2b66e034a54eaf417644ddcfdf3
+    spriteID: 9cba95a421ea6cc4694353424e59d2e5
     internalID: 0
     vertices: []
     indices: 
@@ -737,36 +737,36 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Animatiom-Lindeleia_0: -906996168
-      Animatiom-Lindeleia_1: -228159336
-      Animatiom-Lindeleia_10: 51340223
-      Animatiom-Lindeleia_11: -1960458359
-      Animatiom-Lindeleia_12: -88993016
-      Animatiom-Lindeleia_13: -1621677355
-      Animatiom-Lindeleia_14: 333787032
-      Animatiom-Lindeleia_15: 970705099
-      Animatiom-Lindeleia_16: -132515012
-      Animatiom-Lindeleia_17: 270174073
-      Animatiom-Lindeleia_18: 666635716
-      Animatiom-Lindeleia_19: 538006029
-      Animatiom-Lindeleia_2: 2000159179
-      Animatiom-Lindeleia_20: 2022055501
-      Animatiom-Lindeleia_21: 1360544397
-      Animatiom-Lindeleia_22: -311058485
-      Animatiom-Lindeleia_23: -196969506
-      Animatiom-Lindeleia_24: 1902026719
-      Animatiom-Lindeleia_25: 1377869555
-      Animatiom-Lindeleia_26: 1592216511
-      Animatiom-Lindeleia_27: -1746588715
-      Animatiom-Lindeleia_28: 957708010
-      Animatiom-Lindeleia_29: -1589384903
-      Animatiom-Lindeleia_3: -1081020100
-      Animatiom-Lindeleia_4: 308050914
-      Animatiom-Lindeleia_5: -183008068
-      Animatiom-Lindeleia_6: -612235919
-      Animatiom-Lindeleia_7: -909320964
-      Animatiom-Lindeleia_8: 219526143
-      Animatiom-Lindeleia_9: 656930386
+      Animatiom-Lindeleia_0: -1739831448
+      Animatiom-Lindeleia_1: -653932547
+      Animatiom-Lindeleia_10: 1426979770
+      Animatiom-Lindeleia_11: 1341607084
+      Animatiom-Lindeleia_12: 2091162419
+      Animatiom-Lindeleia_13: -1221646857
+      Animatiom-Lindeleia_14: 1030964971
+      Animatiom-Lindeleia_15: -1282746522
+      Animatiom-Lindeleia_16: -1582982623
+      Animatiom-Lindeleia_17: -23901252
+      Animatiom-Lindeleia_18: 72794784
+      Animatiom-Lindeleia_19: -2136853300
+      Animatiom-Lindeleia_2: -827467380
+      Animatiom-Lindeleia_20: 1154278426
+      Animatiom-Lindeleia_21: 18116670
+      Animatiom-Lindeleia_22: -1973763607
+      Animatiom-Lindeleia_23: 1511261298
+      Animatiom-Lindeleia_24: -2010209994
+      Animatiom-Lindeleia_25: 1447530073
+      Animatiom-Lindeleia_26: -518590858
+      Animatiom-Lindeleia_27: -1690849385
+      Animatiom-Lindeleia_28: 1532620607
+      Animatiom-Lindeleia_29: -1703895955
+      Animatiom-Lindeleia_3: -843900292
+      Animatiom-Lindeleia_4: -1187000076
+      Animatiom-Lindeleia_5: -1951371996
+      Animatiom-Lindeleia_6: -367251998
+      Animatiom-Lindeleia_7: 943614679
+      Animatiom-Lindeleia_8: -4488828
+      Animatiom-Lindeleia_9: -596487344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

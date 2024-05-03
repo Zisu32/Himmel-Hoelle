@@ -64,6 +64,10 @@ public class MoveManager : MonoBehaviour
             {
                 playerHealth.TakeDamage(damage);
             }
+            if (spawnObjects[currentIndex].isEvil)
+            {
+                playerHealth.Heal(heal);
+            }
 
             spawnObjects[currentIndex].DownObj();
 

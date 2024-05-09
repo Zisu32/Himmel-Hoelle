@@ -628,7 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -2318,7 +2318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -3397,7 +3397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -3744,7 +3744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -4065,6 +4065,8 @@ MonoBehaviour:
   healthBar: {fileID: 209276767}
   Panel: {fileID: 628640451}
   endLevelPanel: {fileID: 171930044}
+  border: {fileID: 0}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1273804315
 Transform:
   m_ObjectHideFlags: 0
@@ -4744,7 +4746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -5725,7 +5727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0
@@ -5891,7 +5893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc2fdba43a187f48a467b79155e5da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 500
+  moveSpeed: 400
   upSpeed: 500
   downSpeed: 500
   stopXCoordinate: 0

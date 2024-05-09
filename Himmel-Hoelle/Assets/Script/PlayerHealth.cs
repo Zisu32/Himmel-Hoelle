@@ -65,7 +65,10 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
         if (border != null)
         {
-            border.color = Color.green; // Change the border's color to red when taking damage
+            border.color = new Color(0.0f, 0.7f, 0.7f, 1.0f); // Helleres Türkis
+
+           // border.color = new Color(0.0f, 0.5f, 0.5f, 1.0f); // Dunkleres Türkis
+           // border.color = Color.cyan; // Change the border's color to red when taking damage
             StartCoroutine(ResetBorderColor()); // Start coroutine to reset color
         }
         UpdateUI();

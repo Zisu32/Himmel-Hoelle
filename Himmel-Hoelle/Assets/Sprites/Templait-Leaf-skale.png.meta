@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 525070cadd1227a42be8d4edc7006b59
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dfc8c36b3d6f44b93021650d70d776
+      internalID: 1669972806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a5b1d55680cab449f55ded3af7a492
+      internalID: -520047042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb5a7909170b8d4290acd1441397d2b
+      internalID: -810155313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_3
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b576cc2b5a297b4cb63130b6e7bc053
+      internalID: -929822663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_4
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515cc528f1e2c0b4b8b941346b8f75a1
+      internalID: 1375576495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_5
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381dd463fbb7f24cad981ae2d43e0f8
+      internalID: 910650663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_6
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ef53184fbf8a7459784e29183e15f5
+      internalID: -1534637486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_7
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7437348e89fc4294fb49b28e55fed000
+      internalID: -1100570643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_8
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ea9495b802ea24bb96073019e029a6
+      internalID: 1633254838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_9
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4207a1dd5c453324ba189d7e88c0c6a3
+      internalID: 834658806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_10
+      rect:
+        serializedVersion: 2
+        x: 5170
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50336b15906e97d4a95a14e0d1bf7c45
+      internalID: 289208343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_11
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea870ef2fdc5fd42b6b99d4e38c57c2
+      internalID: 710221553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_12
+      rect:
+        serializedVersion: 2
+        x: 6204
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46401453df32a9145be53ddea2f3fbe0
+      internalID: 1498998090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_13
+      rect:
+        serializedVersion: 2
+        x: 6721
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab267f2d164f7642a1bf038ef68ac6c
+      internalID: 1696658446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_14
+      rect:
+        serializedVersion: 2
+        x: 7238
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda47a9dcbe631f4b80815c844625fd6
+      internalID: 2086558668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_15
+      rect:
+        serializedVersion: 2
+        x: 7755
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992535a2c1361d5418c3355844e5cd4b
+      internalID: 1587587312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_16
+      rect:
+        serializedVersion: 2
+        x: 8272
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0230d259faab614393f55a17f551672
+      internalID: 2109749117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_17
+      rect:
+        serializedVersion: 2
+        x: 8789
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c62778f15e8ad478f44e5d46629f17
+      internalID: 966528848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_18
+      rect:
+        serializedVersion: 2
+        x: 9306
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da85a37abcaf31a4b9fa133c7f040f3d
+      internalID: -1901084294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_19
+      rect:
+        serializedVersion: 2
+        x: 9823
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d1b93bff101a04fafc994f2e8e0635
+      internalID: 1503226568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_20
+      rect:
+        serializedVersion: 2
+        x: 10340
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a543c72b239786d47ac2cb9c3686d699
+      internalID: 1491102520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_21
+      rect:
+        serializedVersion: 2
+        x: 10857
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09c83709e9a4e14f9fb13207c9528e2
+      internalID: 1537772753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_22
+      rect:
+        serializedVersion: 2
+        x: 11374
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd84dea098669942a7b6904049e8b3e
+      internalID: 599812915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_23
+      rect:
+        serializedVersion: 2
+        x: 11891
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd83df96c084a047a8152c31202d85a
+      internalID: 43694912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_24
+      rect:
+        serializedVersion: 2
+        x: 12408
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f16fd53a5c6a7b4cafda5212de8899a
+      internalID: -1381282827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_25
+      rect:
+        serializedVersion: 2
+        x: 12925
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0ae5cf02c1cf8488576f8227de7baa
+      internalID: 990688679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_26
+      rect:
+        serializedVersion: 2
+        x: 13442
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd52b5ed7243a041a5ca7dc78d28d28
+      internalID: 1690989236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_27
+      rect:
+        serializedVersion: 2
+        x: 13959
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90fc3327816134682e1939c97c4cbb
+      internalID: -280620531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Templait-Leaf-skale_28
+      rect:
+        serializedVersion: 2
+        x: 14476
+        y: 0
+        width: 517
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656c0a38d16069e4895bcd7a723da916
+      internalID: 1526234836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6cd92ca9a4ebd8c4d93531ec79898747
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Templait-Leaf-skale_0: 1669972806
+      Templait-Leaf-skale_1: -520047042
+      Templait-Leaf-skale_10: 289208343
+      Templait-Leaf-skale_11: 710221553
+      Templait-Leaf-skale_12: 1498998090
+      Templait-Leaf-skale_13: 1696658446
+      Templait-Leaf-skale_14: 2086558668
+      Templait-Leaf-skale_15: 1587587312
+      Templait-Leaf-skale_16: 2109749117
+      Templait-Leaf-skale_17: 966528848
+      Templait-Leaf-skale_18: -1901084294
+      Templait-Leaf-skale_19: 1503226568
+      Templait-Leaf-skale_2: -810155313
+      Templait-Leaf-skale_20: 1491102520
+      Templait-Leaf-skale_21: 1537772753
+      Templait-Leaf-skale_22: 599812915
+      Templait-Leaf-skale_23: 43694912
+      Templait-Leaf-skale_24: -1381282827
+      Templait-Leaf-skale_25: 990688679
+      Templait-Leaf-skale_26: 1690989236
+      Templait-Leaf-skale_27: -280620531
+      Templait-Leaf-skale_28: 1526234836
+      Templait-Leaf-skale_3: -929822663
+      Templait-Leaf-skale_4: 1375576495
+      Templait-Leaf-skale_5: 910650663
+      Templait-Leaf-skale_6: -1534637486
+      Templait-Leaf-skale_7: -1100570643
+      Templait-Leaf-skale_8: 1633254838
+      Templait-Leaf-skale_9: 834658806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

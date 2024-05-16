@@ -47,7 +47,7 @@ public class ChangeText2 : MonoBehaviour
                         podestText.text = "Ich hatte unheimliches Glück, denn zum Zeitpunkt des Feuers war ich weit entfernt, ich habe kaum etwas mitbekommen – erst, als das Feuer bereits gelöscht war, kam ich her. Ich bin bloß froh, dass den Eichhörnchen dort nichts passiert ist – egal, wie viele Nüsse sie mir auch klauen, es wäre eine Schande, auf sie im Wald zu verzichten!";
                         break;
                     case 9:
-                        podestText.text = "Ich war zu beschäftigt damit, die Ruhe im Wald zu bewahren, um den Brand rechtzeitig zu bemerken. Die Verantwortung wiegt schwer auf meinen Schultern, und ich habe den Wald zu allen Zeiten im Blick. Doch selbst meine Wachsamkeit konnte nicht verhindern, dass das Feuer ausbrach und unsere geliebten Wälder verwüstete. Ich fühle mich zutiefst betrübt und machtlos angesichts dieser Tragödie.";
+                        podestText.text = "Ich war zu beschäftigt damit, die Ruhe im Wald zu bewahren, um den Brand rechtzeitig zu bemerken. Die Verantwortung als Beschützer des Fey wiegt schwer auf meinen Schultern, und ich habe den Wald zu allen Zeiten im Blick. Doch selbst meine Wachsamkeit konnte nicht verhindern, dass das Feuer ausbrach und unsere geliebten Wälder verwüstete. Ich fühle mich zutiefst betrübt und machtlos angesichts dieser Tragödie.";
                         break; 
                     default:
                         podestText.text = "Default Text";

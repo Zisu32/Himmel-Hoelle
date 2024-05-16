@@ -1,6 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ChangeText" preserve="nothing"/>
+		<type fullname="ChangeText2" preserve="nothing"/>
+		<type fullname="ChangeText3" preserve="nothing"/>
 		<type fullname="LeafObject" preserve="nothing"/>
 		<type fullname="MoveManager" preserve="nothing"/>
 		<type fullname="PlayerHealth" preserve="nothing"/>
@@ -48,9 +50,6 @@
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
-		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
-		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
-		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Object" preserve="nothing"/>

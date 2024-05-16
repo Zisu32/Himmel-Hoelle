@@ -16,6 +16,20 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ChangeText2",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ChangeText3",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "DelayedCallManager",
             "fullManagedTypeName": "",
@@ -28,10 +42,18 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -40,10 +62,18 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -66,10 +96,18 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -92,10 +130,18 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -111,10 +157,18 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -223,8 +277,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Level 03.unity"
             ]
         },
         {
@@ -254,10 +307,18 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -310,8 +371,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Level 03.unity"
             ]
         },
         {
@@ -322,8 +382,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Level 03.unity"
             ]
         },
         {
@@ -332,10 +391,18 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -344,10 +411,18 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -356,10 +431,18 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -368,10 +451,18 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -380,10 +471,18 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -392,10 +491,18 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -404,10 +511,18 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -427,10 +542,18 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -439,10 +562,18 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -451,10 +582,18 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -474,10 +613,18 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -486,10 +633,18 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -512,8 +667,18 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
+                "Assets/Scenes/Level 01.unity",
+                "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -522,10 +687,18 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -534,7 +707,15 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -543,10 +724,18 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -555,43 +744,18 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 01.unity",
-                "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshFilter",
-            "fullManagedTypeName": "UnityEngine.MeshFilter",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 01.unity",
-                "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshRenderer",
-            "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Level 01.unity",
-                "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -600,10 +764,18 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -614,8 +786,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Level 03.unity"
             ]
         },
         {
@@ -624,10 +795,18 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -643,10 +822,18 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -655,10 +842,18 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -674,10 +869,18 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -699,8 +902,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
-                "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Level 03.unity"
             ]
         },
         {
@@ -709,10 +911,18 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -732,10 +942,18 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -744,10 +962,18 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -756,10 +982,18 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -768,10 +1002,18 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -780,10 +1022,18 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {
@@ -792,10 +1042,18 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/How to Play 1.unity",
+                "Assets/Scenes/How to Play 2.unity",
+                "Assets/Scenes/How to Play 3.unity",
+                "Assets/Scenes/How to Play.unity",
+                "Assets/Scenes/Intro Level 01.unity",
+                "Assets/Scenes/Intro Level 02.unity",
+                "Assets/Scenes/Intro Level 03.unity",
                 "Assets/Scenes/Level 01.unity",
                 "Assets/Scenes/Level 02.unity",
                 "Assets/Scenes/Level 03.unity",
-                "Assets/Scenes/Main Menu.unity"
+                "Assets/Scenes/Main Menu.unity",
+                "Assets/Scenes/Outro.unity"
             ]
         },
         {

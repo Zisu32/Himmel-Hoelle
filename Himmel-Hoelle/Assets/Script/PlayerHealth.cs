@@ -14,6 +14,7 @@ public class PlayerHealth : MonoBehaviour
     public GameObject endLevelPanel;
     public Image border;
     public Color defaultColor = Color.white;
+    public Image fillBar;
     
     void Start()
     {
@@ -53,7 +54,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
         if (border != null)
         {
-            border.color = Color.red; // Change the border's color to red when taking damage
+            border.color = new Color(0.60f, 0f, 0f, 255f ); // Change the border's color to red when taking damage
             StartCoroutine(ResetBorderColor()); // Start coroutine to reset color
         }
         UpdateUI();
@@ -90,6 +91,15 @@ public class PlayerHealth : MonoBehaviour
         if (healthBar != null)
         {
             healthBar.fillAmount = currentHealth / maxHealth; 
+            
+            if (healthBar.fillAmount < 0.17f)
+            {
+                fillBar.color = new Color(255f, 0f, 0f, 255f);
+            }
+            else
+            {
+                fillBar.color = new Color(0.9f, 0.9f, 0.9f, 1.0f);
+            }
         }
     }
     IEnumerator ResetBorderColor()

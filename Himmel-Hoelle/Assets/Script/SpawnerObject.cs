@@ -6,8 +6,8 @@ public class SpawnerObject : MonoBehaviour
     public float upSpeed = 500f;
     public float downSpeed = 500f;
     public float stopXCoordinate = 0f; // X-Koordinate zum Stoppen
-    private float stopHimmel = 1000f; // Y-Koordinate zum Stoppen im Himmel
-    private float stopHoelle = -1000f; // Y-Koordinate zum Stoppen in Hoelle
+    private float stopHimmel = 450f; // Y-Koordinate zum Stoppen im Himmel
+    private float stopHoelle = -650f; // Y-Koordinate zum Stoppen in Hoelle
     private bool isSpawn = true; // Flag zur Verfolgung der Bewegung
     public bool isHimmel = false;
     public bool isHoelle = false;

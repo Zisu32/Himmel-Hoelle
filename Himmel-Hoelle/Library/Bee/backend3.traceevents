@@ -1,0 +1,539 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1712691096747955, "dur":30624, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691096778588, "dur":84, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691096778701, "dur":666, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691096780576, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712691096780699, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1712691096779389, "dur":3470, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691096782861, "dur":461295, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691097244158, "dur":842, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691097245218, "dur":1407, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1712691096779378, "dur":3500, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096782881, "dur":5133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096788015, "dur":3570, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096791586, "dur":8248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096799836, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle.exe" }}
+,{ "pid":12345, "tid":1, "ts":1712691096800192, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096800482, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096800675, "dur":8204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712691096809147, "dur":92857, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096808880, "dur":93127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096902041, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096904941, "dur":24011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096904845, "dur":24109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096928968, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096930718, "dur":28986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096930651, "dur":29055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096959757, "dur":9088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096968911, "dur":67189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691096968850, "dur":67253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097036123, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097037325, "dur":25665, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097037284, "dur":25709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097063021, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097064845, "dur":35375, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097064791, "dur":35432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097100285, "dur":5058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1712691097105347, "dur":138885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096779465, "dur":3426, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096782895, "dur":5327, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096788223, "dur":3551, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096791775, "dur":7988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096799764, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1712691096800175, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096800469, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096800656, "dur":8219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712691096809364, "dur":30597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096808898, "dur":31065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096840838, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096843936, "dur":37659, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096843852, "dur":37745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096881697, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096883201, "dur":32036, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096883156, "dur":32084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096915266, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096918195, "dur":48955, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096918132, "dur":49020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096967176, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096971784, "dur":39200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691096971695, "dur":39293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097011014, "dur":6691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097017787, "dur":43950, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097017714, "dur":44025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097061755, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097063362, "dur":109143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097063297, "dur":109210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097172557, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1712691097173638, "dur":70573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712691096779373, "dur":3496, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712691096782874, "dur":16876, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712691096799764, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/10642987382451090335.rsp" }}
+,{ "pid":12345, "tid":3, "ts":1712691096799855, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712691096800205, "dur":1232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/pas_l/Documents/RWU/GameDesign/Himmel-Hoelle/Himmel-Hoelle/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":3, "ts":1712691096801438, "dur":2628, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712691096808907, "dur":86011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096808854, "dur":86068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096894955, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GraphToolsFoundationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096896697, "dur":93544, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096896645, "dur":93599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096990265, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096991824, "dur":71425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691096991717, "dur":71534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691097063270, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691097065107, "dur":77389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691097065027, "dur":77471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691097142515, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1712691097143845, "dur":100342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096779412, "dur":3472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096782887, "dur":5485, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096788372, "dur":3265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096791637, "dur":8146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096799785, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1712691096800119, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096800305, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096800550, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096800753, "dur":8110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712691096809163, "dur":63370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096808864, "dur":63672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096872577, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096874332, "dur":29498, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096874257, "dur":29575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096903961, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096905355, "dur":49075, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096905300, "dur":49132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096954446, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096955838, "dur":40604, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096955793, "dur":40652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096996479, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096998064, "dur":30072, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691096998023, "dur":30116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097028325, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097029653, "dur":34692, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097029605, "dur":34742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097064400, "dur":5433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097069899, "dur":60843, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097069839, "dur":60906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097130780, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1712691097132075, "dur":112131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096779507, "dur":3393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096782904, "dur":5858, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096788763, "dur":10995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096799764, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":5, "ts":1712691096799843, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096800196, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1712691096801067, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096801193, "dur":7691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712691096809169, "dur":119038, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712691096808890, "dur":119320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712691096928274, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712691096929976, "dur":283800, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712691096929916, "dur":283861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712691097213793, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1712691097216695, "dur":27521, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096779538, "dur":3371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096782915, "dur":5494, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096788410, "dur":3462, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096791873, "dur":7922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096799796, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1712691096800183, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096800434, "dur":76, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1712691096800514, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096800725, "dur":8129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712691096809586, "dur":94890, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096808870, "dur":95609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096904638, "dur":6580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096911292, "dur":42062, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096911223, "dur":42135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096953396, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096954853, "dur":56594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691096954799, "dur":56650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097011464, "dur":10391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097021919, "dur":48972, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097021861, "dur":49032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097070920, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097074595, "dur":168418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097074535, "dur":168480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1712691097243060, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096779582, "dur":3340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096782926, "dur":5209, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096788136, "dur":3315, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096791452, "dur":8345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096799799, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1712691096800128, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096800352, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096800567, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096800756, "dur":8147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712691096809207, "dur":31922, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096808904, "dur":32227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096841182, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096843855, "dur":32790, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096843792, "dur":32855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096876666, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096878668, "dur":50086, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096878623, "dur":50134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096928785, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096932747, "dur":81548, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691096932688, "dur":81609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097014314, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097018148, "dur":46266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097018099, "dur":46318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097064454, "dur":5786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097070302, "dur":48616, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097070242, "dur":48679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097118945, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1712691097120309, "dur":123856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096779625, "dur":3306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096787939, "dur":594, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.13f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Linq.Expressions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096782935, "dur":5901, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096788837, "dur":10975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096799819, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1712691096800254, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096800517, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096800749, "dur":8109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712691096809407, "dur":67126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096808859, "dur":67676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096876556, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096877702, "dur":78897, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096877649, "dur":78955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096956637, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096958374, "dur":182309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691096958311, "dur":182374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691097140699, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1712691097142920, "dur":101301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096779663, "dur":3279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096782947, "dur":5541, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096788489, "dur":3259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096791749, "dur":8052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096799810, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1712691096800205, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096800474, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096800699, "dur":8162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712691096809128, "dur":89799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096808862, "dur":90068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096898967, "dur":1275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096900299, "dur":35748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096900246, "dur":35804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096936073, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096938769, "dur":234942, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691096938708, "dur":235005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691097173732, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1712691097175984, "dur":68235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096779720, "dur":3233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096782959, "dur":5448, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096788408, "dur":3339, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096791747, "dur":8013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096799816, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096800148, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096800393, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096800554, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096800780, "dur":8102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712691096809221, "dur":104144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096808883, "dur":104484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096913392, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096918356, "dur":55513, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096918286, "dur":55585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096973891, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096975500, "dur":139826, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691096975445, "dur":139883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691097115382, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1712691097117903, "dur":126320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096779763, "dur":3200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096782967, "dur":5991, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096788959, "dur":10865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096799830, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096800209, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096800497, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096800704, "dur":8207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712691096809198, "dur":50077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096808912, "dur":50366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096859321, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096860453, "dur":103269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096860415, "dur":103309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096963746, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096969006, "dur":50421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691096968935, "dur":50495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097019460, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097020820, "dur":29473, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097020764, "dur":29531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097050310, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097051779, "dur":26225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097051724, "dur":26281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097078021, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097079677, "dur":60419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097079629, "dur":60469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097140123, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.CommandStateObserverModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1712691097141417, "dur":102816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096779807, "dur":3164, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096782974, "dur":5686, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096788660, "dur":3212, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096791872, "dur":7904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096799779, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1712691096800134, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096800383, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096800624, "dur":8229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712691096808951, "dur":30435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096808854, "dur":30534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096840470, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096843756, "dur":142476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096843665, "dur":142570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096986259, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096987581, "dur":41276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691096987530, "dur":41329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097028898, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097031966, "dur":31833, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097031909, "dur":31892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097063815, "dur":8248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097072127, "dur":139946, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097072067, "dur":140008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097212099, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1712691097213297, "dur":30905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096779842, "dur":3136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096787381, "dur":795, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.13f1\\Editor\\Data\\il2cpp\\build\\deploy\\hostpolicy.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096782982, "dur":6054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096789036, "dur":10732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096799770, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1712691096799926, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096800230, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1712691096800485, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096800672, "dur":8196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1712691096809252, "dur":32884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096808870, "dur":33268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096842156, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096844060, "dur":138322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096844008, "dur":138377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096982403, "dur":3952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096986423, "dur":174313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691096986360, "dur":174378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691097160767, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":13, "ts":1712691097162861, "dur":81330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096779876, "dur":3112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096782993, "dur":5834, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096788827, "dur":10959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096799803, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1712691096800256, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096800544, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096800736, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1712691096800789, "dur":8103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1712691096809242, "dur":63969, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096808894, "dur":64320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096873252, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096875498, "dur":36622, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096875436, "dur":36687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096912154, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096913995, "dur":64707, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096913952, "dur":64752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096978732, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096980219, "dur":46938, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691096980156, "dur":47006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097027202, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097028557, "dur":41485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097028498, "dur":41546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097070067, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097071379, "dur":64384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097071324, "dur":64442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097135789, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1712691097137073, "dur":107097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096779923, "dur":3085, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096783014, "dur":5494, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096788509, "dur":3335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096791844, "dur":7937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096799784, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1712691096800078, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096800254, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1712691096800525, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096800793, "dur":8096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1712691096809183, "dur":219464, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712691096808891, "dur":219759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712691097028958, "dur":4318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712691097033325, "dur":140206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712691097033279, "dur":140254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712691097173547, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1712691097174810, "dur":69403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096779971, "dur":3059, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096787441, "dur":696, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2023.2.13f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691096783036, "dur":6123, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096789160, "dur":10610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096799786, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1712691096800161, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096800508, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096800771, "dur":8102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1712691096809143, "dur":94180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691096808879, "dur":94446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691096903354, "dur":8178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691096911587, "dur":100159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691096911535, "dur":100214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691097011766, "dur":6737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691097018555, "dur":186108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691097018506, "dur":186160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691097204693, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1712691097206145, "dur":38054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096780038, "dur":3004, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096783047, "dur":5571, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096788619, "dur":3236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096791855, "dur":7937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096799802, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1712691096800247, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096800508, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096800720, "dur":8175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1712691096809302, "dur":153085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712691096808898, "dur":153492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712691096962428, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712691096964090, "dur":136440, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712691096964041, "dur":136491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712691097100553, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1712691097103703, "dur":140447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096780064, "dur":2998, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096783067, "dur":5682, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096788749, "dur":1242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096789991, "dur":9817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096799816, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1712691096800227, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096800499, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096800773, "dur":8104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1712691096809117, "dur":86945, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096808878, "dur":87187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096896105, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096898154, "dur":30645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096898101, "dur":30700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096928816, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096933181, "dur":34383, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096933125, "dur":34440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096967586, "dur":5728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096973395, "dur":29443, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691096973319, "dur":29522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097002869, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097007179, "dur":35992, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097007125, "dur":36049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097043207, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097044795, "dur":31656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097044748, "dur":31706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097076481, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097078095, "dur":68670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097078023, "dur":68745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097146795, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1712691097148083, "dur":96101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096780100, "dur":2979, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096783086, "dur":5426, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096788513, "dur":3296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096791809, "dur":7964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096799775, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1712691096799982, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096800231, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096800580, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096800767, "dur":8133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1712691096809274, "dur":123950, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096808906, "dur":124320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096933255, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096935265, "dur":24445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096935216, "dur":24497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096959817, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096962807, "dur":183121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691096962748, "dur":183182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691097145956, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1712691097147340, "dur":96849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096780169, "dur":2945, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096783119, "dur":6089, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096789208, "dur":10606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096799820, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1712691096800156, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096800397, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1712691096800454, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096800569, "dur":8290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1712691096809162, "dur":75344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096808860, "dur":75649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096884542, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096885946, "dur":99707, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096885883, "dur":99773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096985676, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096988102, "dur":71863, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691096988047, "dur":71921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691097060007, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691097061762, "dur":36088, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691097061677, "dur":36177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691097097888, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1712691097099174, "dur":144979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096780140, "dur":2957, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096783103, "dur":5630, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096788733, "dur":3075, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096791808, "dur":7957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096799771, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":21, "ts":1712691096799963, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096800235, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096800540, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096800769, "dur":8098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096809069, "dur":52700, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096808868, "dur":52905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096861807, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096863035, "dur":47147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096862992, "dur":47195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096910227, "dur":4761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096915061, "dur":51352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096914991, "dur":51425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096966428, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1712691096966505, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096971782, "dur":38615, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691096971678, "dur":38721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097010430, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097012636, "dur":30601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097012544, "dur":30696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097043264, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097044839, "dur":61163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097044789, "dur":61215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097106028, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1712691097107308, "dur":136887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1712691096780204, "dur":2928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1712691096783138, "dur":5788, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1712691096788927, "dur":10893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1712691096799822, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096800324, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1712691096800573, "dur":8283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1712691096808996, "dur":32943, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096808857, "dur":33084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096841965, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096844187, "dur":114992, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096844139, "dur":115044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096959211, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096962200, "dur":86741, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691096962146, "dur":86797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691097048975, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691097050299, "dur":60795, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691097050247, "dur":60849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691097111160, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1712691097112352, "dur":131856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096780235, "dur":2914, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096783154, "dur":5769, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096788924, "dur":10879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096799804, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":23, "ts":1712691096800232, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096800525, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096800764, "dur":8100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1712691096809351, "dur":63292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096808881, "dur":63764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096872664, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096874301, "dur":30753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096874244, "dur":30812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096905075, "dur":8065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096913192, "dur":25099, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096913144, "dur":25149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096938321, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096939569, "dur":94899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691096939524, "dur":94947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691097034500, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691097038378, "dur":80756, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691097038321, "dur":80815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691097119153, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1712691097120589, "dur":123589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096780268, "dur":2892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096783161, "dur":5684, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096788845, "dur":10943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096799790, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":24, "ts":1712691096800086, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096800292, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096800516, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":24, "ts":1712691096800583, "dur":8326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1712691096809407, "dur":301090, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":24, "ts":1712691096808910, "dur":301590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":24, "ts":1712691097110541, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/pas_l/Downloads/FayFate/Himmel-Hoelle_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":24, "ts":1712691097113537, "dur":130622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712691097249264, "dur":1216, "ph":"X", "name": "ProfilerWriteOutput" }
+,
